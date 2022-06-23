@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #ff7de3;
+  color: white;
+  padding: 0.30rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 5rem;
+  align-self: flex-end;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgb(163, 18, 156);
+}
